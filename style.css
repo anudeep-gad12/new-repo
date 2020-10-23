@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main: #1eba06;
+  --light: #fff;
+  --dark: #111;
+  --medium: #f4f4f4;
+}
+
+.container {
+  max-width: 1120px;
+  padding: 1.4rem 0.95rem;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* navbar */
+
+#top {
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+#top .container nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+#top .container nav ul {
+  display: flex;
+}
+
+#top .container nav ul a {
+  margin: 0 1.45rem;
+  color: var(--light);
+  font-weight: 400;
+}
+
+#top .container nav ul a:hover {
+  color: var(--main);
+}
+
+/* main */
+
+main {
+  background: url("https://www.scdn.co/i/home/lieVariants/bursts.svg") center
+    center/cover;
+  height: 100vh;
+}
+
+main .container {
+  text-align: center;
+  padding: 9rem 0 2rem 0;
+}
+
+main .container h1 {
+  font-size: 4rem;
+}
+
+main .container p {
+  padding: 1.4rem;
+}
+
+main .container a {
+  padding: 1.4rem;
+  display: inline-block;
+  border-radius: 60px;
+  color: var(--light);
+  background-color: var(--main);
+}
+
+main .container a:hover {
+  background-color: var(--dark);
+  opacity: 0.9;
+  color: var(--light);
+}
+
+footer {
+  background: var(--dark);
+  color: var(--light);
+}
+
+footer .container #total-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .container a {
+  color: var(--light);
+}
+
+footer .container #total-links #footer-links a {
+  padding-right: 1rem;
+}
+
+footer .container #total-links #social i {
+  padding-right: 0.25rem;
+}
+
+footer p {
+  padding-top: 1rem;
+  text-align: end;
+}
